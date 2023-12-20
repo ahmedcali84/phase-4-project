@@ -43,9 +43,8 @@ The most occuring genre is drama as observed in the graph below while there are 
 
 
 <p align="center">Graph of Counts of Genres </p>
-<p align="center">
-  <img src="C:\Users\hp\phase-4-project\images\genres.png" alt="genres">
-</p>
+
+![Repository Image](images/genres.png)
 
 ###### Ratings.csv
 
@@ -54,9 +53,8 @@ The Ratings Dataset has 100836 entries with 3 columns namely `userId`, `movieId`
 The average rating is about 3.5 with a standard devistion of 1 with the minimum being 0.5 and maximum being 5.The numbers of users who rated are 610 in total  0
 
 <p align="center">Graph of Ratings Distribution </p>
-<p align="center">
-  <img src="C:\Users\hp\phase-4-project\images\ratings.png" alt="genres">
-</p>
+
+![Repository Image](images/ratings.png)
 
 ### Data Preparation 
 
