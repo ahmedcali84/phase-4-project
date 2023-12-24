@@ -35,11 +35,13 @@ The columns of the movies dataset has both string and  numeric data types, it ap
 ###### Movies.csv 
 The most occuring genre is drama as observed in the graph below while there are **951** unique combinations of genres the movie `Eros (2004)` appears to have been recorded twice in the dataset.
 
-|       |title |genres
-|count	|9742|9742
-|unique	|9737|951
-|top	|Emma (1996)   |Drama
-|freq	|2      |1053
+###### Summary Statistics
+|       |title |genres|
+|-------|------|------|
+|count |9742|9742|
+|unique |9737|951|
+|top |Emma (1996)   |Drama|
+|freq |2      |1053|
 
 
 <p align="center">Graph of Counts of Genres </p>
@@ -48,9 +50,22 @@ The most occuring genre is drama as observed in the graph below while there are 
 
 ###### Ratings.csv
 
-The Ratings Dataset has 100836 entries with 3 columns namely `userId`, `movieId`, `rating ` and `timeamp`t. All of the columns are in numeric datatypes with no null data entries.
+The Ratings Dataset has 100836 entries with 3 columns namely `userId`, `movieId`, `rating ` and `timestamp`. All of the columns are in numeric datatypes with no null data entries.
 
-The average rating is about 3.5 with a standard devistion of 1 with the minimum being 0.5 and maximum being 5.The numbers of users who rated are 610 in total  0
+The average rating is about 3.5 with a standard devistion of 1 with the minimum being 0.5 and maximum being 5.The numbers of users who rated are 610 in total.
+
+###### Summary Statistics
+| |userId|movieId|rating|timestamp|
+|----|----|----|-----|------|
+|count|100836.000000|100836.000000|100836.000000|1.008360e+05|
+|mean|326.127564|19435.295718|3.501557|1.205946e+09|
+|std|182.618491|35530.987199|1.042529|2.162610e+08|
+|min|1.000000|1.000000|0.500000|8.281246e+08|
+|25%|177.000000|1199.000000|3.000000|1.019124e+09|
+|50%|325.000000|2991.000000|3.500000|1.186087e+09|
+|75%|477.000000|8122.000000|4.000000|1.435994e+09|
+|max|610.000000|193609.000000|5.000000|1.537799e+09|
+
 
 <p align="center">Graph of Ratings Distribution </p>
 
